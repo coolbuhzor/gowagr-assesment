@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gowagr Assessment
 
-## Getting Started
+---
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is an assessment for the Gowagr Squad Games. It involves building a user interface (UI) that interacts with the Gowagr API.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js:** A React framework for production.
+- **Fetch API:** For making HTTP requests.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Installation & Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To get started with this project, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/coolbuhzor/gowagr-assesment.git](https://github.com/coolbuhzor/gowagr-assesment.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd gowagr-assesment
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Environment Variable:**
+    Create a `.env.local` file in the root of your project and add your API base URL:
+    ```
+    NEXT_PUBLIC_API_BASE_URL=your_gowagr_api_base_url_here
+    ```
+    _Replace `your_gowagr_api_base_url_here` with the actual base URL of the Gowagr API._
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+You can interact with the application by visiting the deployed URL, or you can run it locally:
+
+1.  **Run in development mode:**
+    ```bash
+    npm run dev
+    ```
+    This will start the development server, usually accessible at `http://localhost:3000`.
+
+---
+
+## Development & Contributing
+
+We welcome contributions to this project! Please follow these guidelines:
+
+1.  **Branching:** Create a new branch for your features or bug fixes.
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+2.  **Pull Requests:** Once your changes are ready, raise a pull request to the `main` branch.
+3.  **Component Structure:** All React components should be placed within the `components` folder and named in `kebab-case` (eg`my-component.tsx`).
+4.  **Assets:** All static assets (images, fonts, etc.) should be stored in the `public` folder.
