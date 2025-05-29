@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Slider from "@/components/slider";
+import Slider from "@/components/marquee-slider";
 
 const iconData = [
   {
