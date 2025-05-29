@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { TwitterFeed, TwitterFeeds } from "@/components/twitterFeeds";
+import { TwitterFeed, TwitterFeeds } from "@/components/twitter-feeds";
 
 export const SectionFive = () => {
   const twitterPosts: TwitterFeed[] = [
@@ -90,7 +90,7 @@ export const SectionFive = () => {
           <Image
             src={"/assets/svg/section-five/line.svg"}
             alt={"line "}
-            className={"absolute bottom-0 right-0"}
+            className={"absolute bottom-0 right-0 animate-wiggle"}
             width={200}
             height={100}
           />

@@ -14,8 +14,8 @@ export default {
 
       backgroundImage: {
         "hero-pattern": "url('/assets/svg/hero-pattern.svg')",
-        "custom-pattern-modified":
-          "url('/assets/svg/section-seven/background-pattern-modified.svg')",
+        "section-seven-pattern":
+          "url('/assets/svg/section-seven/bg-pattern.svg')",
         "section-two-bg": "url('/assets/svg/section-two-bg.svg')",
 
         "numerous-gradient":
@@ -44,6 +44,31 @@ export default {
       borderColor: {
         "green-border": "#D0F091",
         "pink-border": "#FFC2F7",
+      },
+      keyframes: {
+        float: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-15px)" },
+        },
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-2deg)" },
+          "50%": { transform: "rotate(2deg)" },
+        },
+        fly: {
+          "0%": { transform: "translate(0, 0) rotate(0deg)" },
+          "50%": { transform: "translate(10px, -10px) rotate(5deg)" },
+          "100%": { transform: "translate(0, 0) rotate(0deg)" },
+        },
+        slowSpin: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(360deg)" },
+        },
+      },
+      animation: {
+        float: "float 3s ease-in-out infinite",
+        wiggle: "wiggle 4s ease-in-out infinite",
+        fly: "fly 6s ease-in-out infinite",
+        slowSpin: "slowSpin 10s linear infinite",
       },
     },
   },

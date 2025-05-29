@@ -13,7 +13,7 @@ const gloria = Gloria_Hallelujah({
 const anek = Anek_Gurmukhi({
   subsets: ["latin"],
   variable: "--font-anek",
-  weight: "400",
+  // weight: "400",
 });
 
 export const metadata: Metadata = {

@@ -14,7 +14,7 @@
 }
 
 .font-anek {
-  font-family: var(--font-anek), "Segoe UI", sans-serif;
+  font-family: var(--font-anek), sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {

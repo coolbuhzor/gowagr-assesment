@@ -28,9 +28,9 @@ export const HeroSection = () => {
             <h1>Win Money on Sports</h1>
             <Image
               src={"/assets/svg/blue-flower.svg"}
-              alt={"tiktok"}
+              alt={"flowery image"}
               className={
-                "sm:h-auto h-14 absolute -left-10 -bottom-5 sm:-bottom-10"
+                "sm:h-auto h-14 absolute -left-10 -bottom-5 sm:-bottom-10 animate-slowSpin"
               }
               width={100}
               height={100}
@@ -61,14 +61,16 @@ export const HeroSection = () => {
         <Image
           src={"/assets/svg/spiral.svg"}
           alt={"spiral"}
-          className={"absolute h-6 sm:h-auto left-[15%] top-[10%]"}
+          className={"absolute h-6 sm:h-auto left-[15%] top-[10%] animate-fly"}
           width={70}
           height={70}
         />
         <Image
           src={"/assets/svg/dummy-item.svg"}
           alt={"dummy-item"}
-          className={"absolute h-6 sm:h-auto right-[25%] top-[15%] sm:top-[0%]"}
+          className={
+            "absolute h-6 sm:h-auto right-[25%] top-[15%] sm:top-[0%] animate-float"
+          }
           width={30}
           height={30}
         />
@@ -76,7 +78,7 @@ export const HeroSection = () => {
           src={"/assets/svg/spark.svg"}
           alt={"spark"}
           className={
-            "absolute h-16 sm:h-auto right-[1%] sm:right-[5%] bottom-[15%] sm:top-[3%]"
+            "absolute h-16 sm:h-auto right-[1%] sm:right-[5%] bottom-[15%] sm:top-[3%] animate-wiggle"
           }
           width={200}
           height={200}
@@ -85,7 +87,7 @@ export const HeroSection = () => {
           src={"/assets/svg/fire.svg"}
           alt={"fire"}
           className={
-            "absolute h-16 sm:h-auto left-[7%] bottom-[20%] 2xl:bottom-[35%]"
+            "absolute h-16 sm:h-auto left-[7%] bottom-[20%] 2xl:bottom-[35%] animate-float"
           }
           width={100}
           height={100}
@@ -94,7 +96,7 @@ export const HeroSection = () => {
           src={"/assets/svg/red-spiral.svg"}
           alt={"red-spiral"}
           className={
-            "absolute h-8 sm:h-auto right-[25%] bottom-[10%] sm:bottom-[35%] 2xl:bottom-[45%]"
+            "absolute h-8 sm:h-auto right-[25%] bottom-[10%] sm:bottom-[35%] 2xl:bottom-[45%] animate-fly"
           }
           width={50}
           height={50}

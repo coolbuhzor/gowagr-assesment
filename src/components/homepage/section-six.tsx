@@ -78,7 +78,9 @@ export const SectionSix = () => {
       <Image
         src={"/assets/svg/section-six/green-star.svg"}
         alt={"green_item "}
-        className={"absolute h-32 md:h-auto top-20  sm:-top-3 left-[20%]"}
+        className={
+          "absolute h-32 md:h-auto top-20  sm:-top-3 left-[20%] animate-slowSpin"
+        }
         width={100}
         height={100}
       />

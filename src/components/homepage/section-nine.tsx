@@ -6,7 +6,7 @@ export const SectionNine = () => {
       <section className="py-10">
         <div className="w-10/12 xl:w-10/12 mx-auto relative h-full rounded-xl border border-[#1F2935]">
           <div className="absolute inset-0 bg-gradient-pattern bg-cover rounded-xl"></div>
-          <div className="relative z-10 bg-custom-pattern-modified bg-cover">
+          <div className="relative z-10 bg-section-seven-pattern bg-cover">
             <Image
               src={"/assets/svg/footer/footer_advert.svg"}
               alt={"footer_advert "}

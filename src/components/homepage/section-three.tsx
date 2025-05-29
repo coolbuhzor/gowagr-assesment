@@ -16,7 +16,7 @@ export const SectionThree = async () => {
                 "text-[#D2D4D7] uppercase font-[900] text-[50px] xl:text-[70px] font-anek leading-[2.5rem] md:leading-[2rem] xl:leading-[3rem]"
               }
             >
-              Numerours <br /> pLAYER{" "}
+              Numerours <br /> PLAYER{" "}
               <span className={"text-secondary lowercase font-gloria"}>
                 projections
               </span>
@@ -27,9 +27,9 @@ export const SectionThree = async () => {
             </p>
           </div>
           <Image
-            src={"/assets/svg/benefits/purple_flower.svg"}
-            alt={"steps "}
-            className={"absolute -top-[12%] left-[10%] z-[99]"}
+            src={"/assets/svg/section-four/purple-flower.svg"}
+            alt={"purple flower"}
+            className={"absolute -top-[12%] left-[10%] z-[99] animate-slowSpin"}
             width={60}
             height={60}
           />

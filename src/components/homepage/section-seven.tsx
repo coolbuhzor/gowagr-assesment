@@ -32,7 +32,7 @@ export const SectionSeven = () => {
           <Image
             src={"/assets/svg/dummy-item.svg"}
             alt={"dummy-item"}
-            className={"absolute left-[15%] bottom-[40%]"}
+            className={"absolute left-[15%] bottom-[40%] animate-float"}
             width={30}
             height={30}
           />
@@ -54,7 +54,7 @@ export const SectionSeven = () => {
             >
               <div
                 className={
-                  "bg-[#1F2935] bg-custom-pattern-modified bg-cover w-full lg:w-[40%] sm:py-0 py-5 flex flex-col gap-y-6 rounded-2xl px-5"
+                  "bg-[#1F2935] bg-section-seven-pattern bg-cover w-full lg:w-[40%] sm:py-0 py-5 flex flex-col gap-y-6 rounded-2xl px-5"
                 }
               >
                 <Image
@@ -86,7 +86,7 @@ export const SectionSeven = () => {
               </div>
               <div
                 className={
-                  "bg-[#1F2935] pt-10 px-10 sm:px-0 sm:pt-0 bg-custom-pattern-modified bg-cover w-full lg:w-[60%] rounded-2xl flex flex-col-reverse sm:flex-row gap-x-4 items-center"
+                  "bg-[#1F2935] pt-10 px-10 sm:px-0 sm:pt-0 bg-section-seven-pattern bg-cover w-full lg:w-[60%] rounded-2xl flex flex-col-reverse sm:flex-row gap-x-4 items-center"
                 }
               >
                 <Image
@@ -127,7 +127,7 @@ export const SectionSeven = () => {
             >
               <div
                 className={
-                  "bg-[#1F2935] bg-custom-pattern-modified bg-cover w-full lg:w-[60%] py-8 sm:pt-10 rounded-2xl flex flex-col gap-y-4"
+                  "bg-[#1F2935] bg-section-seven-pattern bg-cover w-full lg:w-[60%] py-8 sm:pt-10 rounded-2xl flex flex-col gap-y-4"
                 }
               >
                 <Image
@@ -163,7 +163,7 @@ export const SectionSeven = () => {
               </div>
               <div
                 className={
-                  "bg-[#1F2935] bg-custom-pattern-modified bg-cover w-full lg:w-[40%] flex flex-col gap-y-6 rounded-2xl px-6 pt-7"
+                  "bg-[#1F2935] bg-section-seven-pattern bg-cover w-full lg:w-[40%] flex flex-col gap-y-6 rounded-2xl px-6 pt-7"
                 }
               >
                 <div className={"flex flex-col gap-y-2"}>
@@ -195,14 +195,14 @@ export const SectionSeven = () => {
           <Image
             src={"/assets/svg/section-six/green-star.svg"}
             alt={"green-star"}
-            className={"absolute bottom-[10%] -left-[2%]"}
+            className={"absolute bottom-[10%] -left-[2%] animate-slowSpin"}
             width={50}
             height={50}
           />
           <Image
             src={"/assets/svg/section-seven/double-donut.svg"}
             alt={"double-donut "}
-            className={"absolute bottom-[50%] -right-[2%]"}
+            className={"absolute bottom-[50%] -right-[2%] animate-fly"}
             width={50}
             height={50}
           />

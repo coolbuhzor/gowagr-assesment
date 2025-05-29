@@ -10,7 +10,7 @@ export const SectionFour = () => {
       >
         <Image
           src={"/assets/svg/section-four-bg.svg"}
-          alt={"background_line "}
+          alt={"background image"}
           className={"!relative w-full"}
           fill
         />
@@ -49,7 +49,7 @@ export const SectionFour = () => {
               }
             >
               <Image
-                src={"/assets/svg/benefits/numerousO.svg"}
+                src={"/assets/svg/section-four/numerous-options.svg"}
                 alt={"numerousO "}
                 width={100}
                 height={100}
@@ -64,9 +64,9 @@ export const SectionFour = () => {
                 </p>
               </div>
               <Image
-                src={"/assets/svg/benefits/abstractItem.svg"}
-                alt={"abstractItem "}
-                className={"absolute -left-5 -top-5 z-50 pt-5"}
+                src={"/assets/svg/section-four/dummy-img.svg"}
+                alt={"dummy-img"}
+                className={"absolute -left-5 -top-5 z-50 pt-5 animate-fly"}
                 width={30}
                 height={30}
               />
@@ -77,8 +77,8 @@ export const SectionFour = () => {
               }
             >
               <Image
-                src={"/assets/svg/benefits/instantC.svg"}
-                alt={"instantC "}
+                src={"/assets/svg/section-four/money-gun.svg"}
+                alt={"money-gun"}
                 width={100}
                 height={100}
               />
@@ -99,8 +99,8 @@ export const SectionFour = () => {
               }
             >
               <Image
-                src={"/assets/svg/benefits/fastDeposit.svg"}
-                alt={"fastD "}
+                src={"/assets/svg/section-four/mobile-device.svg"}
+                alt={"mobile-device"}
                 width={100}
                 height={100}
               />
@@ -121,8 +121,8 @@ export const SectionFour = () => {
               }
             >
               <Image
-                src={"/assets/svg/benefits/bonusR.svg"}
-                alt={"bonusR "}
+                src={"/assets/svg/section-four/circle-star.svg"}
+                alt={"circular-star"}
                 width={100}
                 height={100}
               />
@@ -138,9 +138,11 @@ export const SectionFour = () => {
                 </p>
               </div>
               <Image
-                src={"/assets/svg/benefits/abstractItem2.svg"}
+                src={"/assets/svg/section-four/star.svg"}
                 alt={"abstractItem "}
-                className={"absolute -right-4 bottom-5 z-50 pt-5"}
+                className={
+                  "absolute -right-4 bottom-5 z-50 pt-5 animate-slowSpin"
+                }
                 width={30}
                 height={30}
               />
